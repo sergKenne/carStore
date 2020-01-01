@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="car store">
+		<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+		<meta name="author" content="Serge Kenne">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>login(car)</title>
+		<link rel="stylesheet" href="css/font-awesome.css">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<!-- <link href="css/jquery.bxslider.css" rel="stylesheet"> -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> -->
+		<script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+		<!-- <script src="js/jquery.bxslider.js"></script> -->
+	</head>
+	<body>
+		<div class="page-wrapper">
+			<div class="header">
+				<div class="header__top">
+					<div class="header__cell clearfix">
+						<div class="logo header__logo">
+							<a href="index.html" class="logo__link">
+								<span class="logo__wrap1">spare</span>
+								<span class="logo__wrap2">parts</span>
+							</a>
+						</div>
+						<div class="currency header__currency">
+							<select name="" id="" class="currency__list">
+								<option value="usd">usd</option>
+								<option value="eur">eur</option>
+								<option value="gbp">gbp</option>
+							</select>
+							<a class="currency__wrap-link" href="#">
+								<span class="currency__icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+								<span class="currency__text">0</span>
+							</a>
+						</div>
+						<div class="login header__login">
+							<ul class="login__list clearfix">
+								<li class="login__item"><a href="login.html" class="login__link">log in</a></li>
+								<li class="login__item"><a href="login.html" class="login__link">create an account</a></li>
+								<li class="login__item"><a href="login.html" class="login__link">check out</a></li>
+							</ul>
+						</div>	
+					</div>
+				</div>
+				<div class="header__nav-menu" id="nav">
+					<div class="header__cell clearfix">
+						<div class="main-menu header__main-menu clearfix">
+							<div class="main-menu__toggle-list header__toggle-list js-main-btn">home<span class="main-menu__toggle-icon"><i class="fa fa-caret-down" aria-hidden="true"></i></span>
+							</div>
+							<ul class="main-menu__list">
+								<li class="main-menu__item"><a href="index.html" class="main-menu__link" title="home"><span class="main-menu__elts">home</span></a></li>
+								<li class="main-menu__item"><a href="catalog.html" class="main-menu__link" title="catalog"><span class="main-menu__elts">catalog</span><i class="fa fa-caret-down main-menu__item-icon" aria-hidden="true"></i></a>
+									<ul class="main-menu__sub-list">
+										<li class="main-menu__sub-item"><a href="collection.html" class="main-menu__sub-link">hand brakes</a></li>
+										<li class="main-menu__sub-item"><a href="collection.html" class="main-menu__sub-link">components</a></li>
+										<li class="main-menu__sub-item"><a href="collection.html" class="main-menu__sub-link">floors marts & liners</a></li>
+										<li class="main-menu__sub-item"><a href="collection.html" class="main-menu__sub-link">carpet kits</a></li>
+										<li class="main-menu__sub-item"><a href="collection.html" class="main-menu__sub-link">seats,seat covers</a></li>
+										<li class="main-menu__sub-item"><a href="collection.html" class="main-menu__sub-link">car covers</a></li>
+										<li class="main-menu__sub-item"><a href="collection.html" class="main-menu__sub-link">calipers</a></li>
+										<li class="main-menu__sub-item"><a href="collection.html" class="main-menu__sub-link">braker discs</a></li>
+										<li class="main-menu__sub-item"><a href="collection.html" class="main-menu__sub-link">grilles & components</a></li>
+										<li class="main-menu__sub-item"><a href="collection.html" class="main-menu__sub-link">mirrors & components</a></li>
+										<li class="main-menu__sub-item"><a href="collection.html" class="main-menu__sub-link">bumpers & components</a></li>
+										<li class="main-menu__sub-item"><a href="collection.html" class="main-menu__sub-link">exhoutst tips</a></li>
+									</ul>
+								</li>
+								<li class="main-menu__item"><a href="blog.html" class="main-menu__link" title="blog"><span class="main-menu__elts">blog</span></a></li>
+								<li class="main-menu__item"><a href="about.html" class="main-menu__link" title="about us"><span class="main-menu__elts">about us</span></a></li>
+								<li class="main-menu__item"><a href="documentation.html" class="main-menu__link" title="documentation"><span class="main-menu__elts">documentation</span></a></li>
+								<li class="main-menu__item"><a href="contact.html" class="main-menu__link" title="contact us"><span class="main-menu__elts">contact us</span></a></li>
+							</ul>
+						</div>	
+						<form action="" class="search header__search" method="get">
+							<input type="text" class="search__field">
+							<button class="search__btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="breadcrumb">
+				<span class="breadcrumb__item">home</span>
+				<span class="breadcrumb__item">/</span>
+				<span class="breadcrumb__item js-categorie">Account</span>
+			</div>
+			<div class="main-content">
+				<div class="main-content__cell clearfix">
+					<div class="main-section">
+						<h3 class="main-title">customer login</h3>
+						<div class="wrap-login clearfix">
+							<form class="login-form" action="">
+								<div class="login-form__item">
+									<label class="login-form__text-form" for="email">Email Address</label><input class="login-form__input-form" type="text">
+								</div>
+								<div class="login-form__item">
+									<label class="login-form__text-form" for="email">Password</label><input class="login-form__input-form" type="text">
+								</div>
+								<p class="login-form__text-paragraphe"><a class="login-form__text-link" href="#">Forgot your password?</a></p>
+								<div class="login-form__btn-form">
+									<!-- <a href="#" class="main-btn">sign in</a> -->
+									<a href="#" class="button">
+										Sign in
+									</a>
+									<span class="login-form__store"> or <a class="login-form__store-link" href="#">Return to Store</a></span>
+								</div>	
+							</form>
+						</div>
+						<h3 class="main-title">create account</h3>
+						<div class="wrap-login clearfix">
+							<form class="login-form" action="">
+								<div class="login-form__item">
+									<label class="login-form__text-form" for="email">First Name</label><input class="login-form__input-form" type="text">
+								</div>
+								<div class="login-form__item">
+									<label class="login-form__text-form" for="email">Last Name</label><input class="login-form__input-form" type="text">
+								</div>
+								<div class="login-form__item">
+									<label class="login-form__text-form" for="email">Email Address</label><input class="login-form__input-form" type="text">
+								</div>
+								<div class="login-form__item">
+									<label class="login-form__text-form" for="email">Password</label><input class="login-form__input-form" type="text">
+								</div>
+								<p class="login-form__text-paragraphe"><a class="login-form__text-link" href="#">Forgot your password?</a></p>
+								<div class="login-form__btn-form">
+									<a href="#" class="button">
+										Create
+									</a>
+									<span class="login-form__store"> or <a class="login-form__store-link" href="#">Return to Store</a></span>
+								</div>	
+							</form>
+						</div>		
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="footer__wrap-item">
+					<div class="footer__cell clearfix">
+						<div class="nav-footer footer__item">
+							<ul class="nav-footer__list">
+								<h4 class="nav-footer__header">information</h4>
+								<li class="nav-footer__item"><a href="#" class="nav-footer__link nav-footer__link--active">home</a></li>
+								<li class="nav-footer__item"><a href="#" class="nav-footer__link">search</a></li>
+								<li class="nav-footer__item"><a href="#" class="nav-footer__link">about us</a></li>
+								<li class="nav-footer__item"><a href="#" class="nav-footer__link">blog</a></li>
+							</ul>
+						</div>
+						<div class="nav-footer footer__item">
+							<ul class="nav-footer__list">
+								<h4 class="nav-footer__header">collections</h4>
+								<li class="nav-footer__item"><a href="#" class="nav-footer__link">hand brakes</a></li>
+								<li class="nav-footer__item"><a href="#" class="nav-footer__link">components</a></li>
+								<li class="nav-footer__item"><a href="#" class="nav-footer__link">floor mats & liners</a></li>
+								<li class="nav-footer__item"><a href="#" class="nav-footer__link">carpet kits</a></li>
+							</ul>
+						</div>
+						<div class="nav-footer footer__item">
+							<ul class="nav-footer__list">
+								<h4 class="nav-footer__header">my account</h4>
+								<li class="nav-footer__item"><a href="#" class="nav-footer__link">my account</a></li>
+								<li class="nav-footer__item"><a href="#" class="nav-footer__link">my addresses</a></li>
+								<li class="nav-footer__item"><a href="#" class="nav-footer__link">my cart</a></li>
+							</ul>
+						</div>
+						<div class="nav-footer footer__item">
+							<ul class="nav-footer__list">
+								<h4 class="nav-footer__header">our blog</h4>
+								<li class="nav-footer__item"><a href="#" class="nav-footer__link">repellendus conse...</a></li>
+								<li class="nav-footer__item"><a href="#" class="nav-footer__link">harum, at sequi i...</a></li>
+								<li class="nav-footer__item"><a href="#" class="nav-footer__link">tempora quae dolo...</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer__wrap-copyright">
+					<div class="footer__copyright-cell">
+						<p class="copyright">
+	© 2018 Spare parts. All Rights Reserved.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/script.js"></script>	
+		<script type="text/javascript">
+			$(document).ready(function() {
+				
+			});
+		</script>
+	</body>
+</html>
